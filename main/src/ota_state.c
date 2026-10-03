@@ -1,0 +1,2 @@
+#include "ota_state.h"
+void ota_state_defaults(ota_runtime_t*s){if(!s)return;*s=(ota_runtime_t){.state=OTA_IDLE,.running={1,0,0},.candidate={0,0,0},.boot_attempts=0,.confirm_deadline_s=30,.failure_injected=0};}
