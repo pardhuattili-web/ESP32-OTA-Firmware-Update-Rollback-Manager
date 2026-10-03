@@ -1,0 +1,1 @@
+idf_component_register(SRCS "app_main.c" "src/ota_manager.c" "src/ota_policy.c" "src/boot_health.c" "src/ota_state.c" "src/storage.c" INCLUDE_DIRS "include" REQUIRES nvs_flash app_update)
